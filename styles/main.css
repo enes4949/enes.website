@@ -1,0 +1,62 @@
+body{
+	font-family: "Lucida Console", "Courier New", monospace;	
+	background: #222222;
+	background: radial-gradient(ellipse at center, #222222, #141414);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	margin: 0;
+}
+
+
+h1{
+	text-align: center;
+	font-size: 250%
+}
+
+
+a{
+	color: lightgrey;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+nav ul{
+	list-style: none;
+	flex: 2;
+	display: flex;
+}
+
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+
+nav, article, aside, footer {
+  padding: 1%;
+}
+
+
+main{
+	max-width: 90%;
+	margin: 2% auto;
+}
+
+
+footer{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 80%;
+	margin-top: 5%;
+}
+
+
+nav, footer{
+	background: rgba(205, 205, 205, 0.3);
+	max-width: 100%
+}
